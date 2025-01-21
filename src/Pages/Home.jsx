@@ -95,7 +95,7 @@ function Home() {
   const currentLang = i18n.language;
 
   return (
-    <>
+    <div className='overflow-hidden'>
       <Hero />
 
       {/* Reasons Section */}
@@ -142,7 +142,7 @@ function Home() {
       </section>
 
       <Marquee />
-    </>
+    </div>
   );
 }
 
