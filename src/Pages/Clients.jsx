@@ -54,7 +54,7 @@ function Clients() {
         <>
             <Header title={t('ourCli')} text={t('clientText')} />
 
-            <section data-aos-delay="500" className='row py-4 container w-75 mx-auto'
+            <section className='row py-4 container w-75 mx-auto'
                 style={{ backgroundImage: `url(${bgl})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', width: '100vw', minHeight: '300px' }}>
                 {sponsors.map((sponsor, index) => (
                     <div data-aos="fade-down" data-aos-delay="200" key={index} className="col-3 p-3">
