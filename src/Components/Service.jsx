@@ -22,7 +22,7 @@ const Service = (props) => {
                 <img style={{ height: '363px', width: '100%' }} className='card-img-top' src={props.img} alt={props.title} />
                 <CardBody className="position-relative px-4">
                     {typeof props.icon === 'string' ?
-                        <img src={props.icon} alt="icon" className={`me-3 rounded-circle  position-absolute top-0 ${dir} translate-middle-y`} style={{ right: '15px',width:'60px' }} />
+                        <img src={props.icon} alt="icon" className={`me-3 rounded-circle position-absolute top-0 ${dir} translate-middle-y`} style={{ right: '15px',width:'60px' }} />
                         :
                         <FontAwesomeIcon icon={props.icon} style={{ right: '15px' }} className={`text-success fs-4 bg-white shadow p-3 me-3 rounded-circle position-absolute top-0 ${dir} translate-middle-y`} />}
                     <h4 style={{ color: 'var(--primary)' }} className="my-3 w-100 fw-bold">{props.title}</h4>

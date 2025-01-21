@@ -16,7 +16,7 @@ function Header(props) {
             <div data-aos='fade-right' data-aos-duration="1000" className="container w-75">
                 <h1 className="fs-1 mb-4">{props.title}</h1>
                 <p className='text-start my-3 ps-3'>{props.text}</p>
-                <button onClick={() => navigate('/contacts')} className={`btn py-2 w-25 text-center btn-lg ${condition}`}>Contact Us</button>
+                <button onClick={() => navigate('/contacts')} className={`btn py-2 w-25 text-center btn-lg ${condition}`}>{t('contactUs')}</button>
             </div>
         </header>
     )
