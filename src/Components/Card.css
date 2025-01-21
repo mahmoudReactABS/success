@@ -1,0 +1,7 @@
+.col-xl-3 p {
+  display: none;
+}
+
+.col-xl-3:hover .position-absolute p {
+  display: block;
+}

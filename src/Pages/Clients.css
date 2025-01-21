@@ -1,0 +1,7 @@
+.sponsor-img {
+ transition: transform 0.3s ease;
+}
+
+.sponsor-img:hover {
+ transform: scale(1.2);
+}
