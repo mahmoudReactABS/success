@@ -1,0 +1,66 @@
+{
+ "reasons": [
+  [
+   {
+    "id": "1",
+    "title_en": "Outstanding Industry Experience",
+    "title_ar": "خبرة صناعية متميزة",
+    "icon": "faCalendar",
+    "details": {
+     "en": "Our enthusiasm to work with YOUR ESTEEMED COMPANY is derived from our commitment to the power and our team’s understanding of issues that YOUR ESTEEMED COMPANY will face in the future.",
+     "ar": "إن حماسنا للعمل مع شركتكم المرموقة ينبع من التزامنا بالقوة وفهم فريقنا للقضايا التي ستواجهها شركتكم المرموقة في المستقبل."
+    }
+   },
+   {
+    "id": "2",
+    "title_en": "Strength and depth of the team",
+    "title_ar": "قوة وعمق الفريق",
+    "icon": "faPeopleGroup",
+    "details": {
+     "en": "We have the right combination of skills, experience, knowledge and freshness of approach to ensure delivering innovative and effective solutions within the professional services context.",
+     "ar": "لدينا المزيج الصحيح من المهارات والخبرات والمعرفة والمنهج الصحيح لضمان تقديم حلول مبتكرة وفعالة في سياق الخدمات المهنية."
+    }
+   },
+   {
+    "id": "3",
+    "title_en": "Open and effective communication",
+    "title_ar": "التواصل المفتوح والفعال",
+    "icon": "faSignal",
+    "details": {
+     "en": "We will maintain an open and honest relationship, challenging where appropriate, and always being available to ensure your issues are dealt with on a timely basis.",
+     "ar": "سنحافظ على علاقة مفتوحة وصادقة، ونتحدى عند الضرورة، ودائمًا ما نكون متاحين لضمان معالجة مشاكلكم في الوقت المناسب."
+    }
+   },
+   {
+    "id": "4",
+    "title_en": "Competitive Fee",
+    "title_ar": "أسعار تنافسية",
+    "icon": "faPersonRays",
+    "details": {
+     "en": "We believe that our proposed fee balances outstanding value for money with outstanding quality and service.",
+     "ar": "نحن نعتقد أن الرسوم المقترحة لدينا توازن بين القيمة المميزة مقابل المال والجودة والخدمة المتميزة."
+    }
+   },
+   {
+    "id": "5",
+    "title_en": "The highest quality audit option",
+    "title_ar": "خيار التدقيق بأعلى جودة",
+    "icon": "faCircleCheck",
+    "details": {
+     "en": "Quality of opinion is as essential to us as it is to you. Our culture of zero audit failure will ensure quality.",
+     "ar": "جودة الرأي مهمة لنا بقدر أهميتها لكم. ثقافتنا القائمة على عدم وجود أي فشل تدقيق ستضمن الجودة."
+    }
+   },
+   {
+    "id": "6",
+    "title_en": "Added value built into the professional services",
+    "title_ar": "القيمة المضافة في الخدمات المهنية",
+    "icon": "faMoneyBillWave",
+    "details": {
+     "en": "The primary value we add comes from our partnership approach to provide a full scope, full relationship professional services.",
+     "ar": "القيمة الرئيسية التي نقدمها تأتي من نهج الشراكة الخاص بنا لتوفير نطاق كامل وعلاقة كاملة للخدمات المهنية."
+    }
+   }
+  ]
+ ]
+}
