@@ -15,6 +15,7 @@ import s7 from '../../public/s7.png';
 import s9 from '../../public/s9.png';
 import s10 from '../../public/s10.png';
 import s11 from '../../public/s11.png';
+import Error from '../Components/Error';
 
 const data = {
  taxes: [
@@ -156,10 +157,7 @@ function SingleService() {
  } catch (error) {
   console.error('Error decoding title:', error);
   return (
-   <div>
-    <h1>Error: Invalid Service Title</h1>
-    <p>The service title in the URL is malformed or contains invalid characters.</p>
-   </div>
+   <Error />
   );
  }
 
@@ -175,10 +173,7 @@ function SingleService() {
 
  if (!service) {
   return (
-   <div className="my-4 text-center">
-    <h1>Error: Service Not Found</h1>
-    <p>The service you are looking for does not exist.</p>
-   </div>
+   <Error />
   );
  }
 

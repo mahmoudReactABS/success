@@ -15,7 +15,7 @@ function ContactUs() {
             <Header title={t('contactUs')} text={t('cntctTxt')} />
 
             <section className='container my-3 px-5'
-            style={{ backgroundImage: `url(${logo_bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain'}}>
+                style={{ backgroundImage: `url(${logo_bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }}>
                 <div className="row container py-4">
                     <article className='col-xl-6 col-md-12'>
                         <h5 className='my-4'><strong><FontAwesomeIcon className='mx-4' icon={faPhone} />202 25265638 -  202 25265637</strong></h5>
@@ -35,7 +35,7 @@ function ContactUs() {
                         <MessageForm align={'ups'} />
                     </article>
                 </div>
-                
+
                 <iframe width="100%" height="300" style={{ border: 0 }} allowFullScreen='' title="Google Map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.609896181966!2d31.251775324941967!3d29.96189762247803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847b30725a015%3A0x279cfa82e868b549!2sSuccess%20Partners!5e0!3m2!1sar!2seg!4v1736413566366!5m2!1sar!2seg">
                 </iframe>

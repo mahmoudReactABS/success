@@ -73,5 +73,6 @@
     "mail":"E-mail Address",
     "message":"Message",
     "sub":"Submit",
-    "seeMore":"See More"
+    "seeMore":"See More",
+    "errorText":"This Page Does not Exist"
 }

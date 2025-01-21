@@ -8,6 +8,7 @@ import Services from './Pages/Services';
 import Clients from './Pages/Clients';
 import ContactUs from './Pages/ContactUs';
 import SingleService from './Pages/singleService'; 
+import Error from './Components/Error';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="client" element={<Clients />} /> 
           <Route path="contacts" element={<ContactUs />} />
           <Route path="service/:name" element={<SingleService />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </Router>
