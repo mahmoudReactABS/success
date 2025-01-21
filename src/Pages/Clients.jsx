@@ -1,10 +1,10 @@
 import React from 'react'
 import { useTranslationContext } from '../translationContext';
 import Header from '../Components/Header';
-import bgl from '../../public/logo-bg.jpeg'
 import MessageForm from '../Components/messageForm';
 import './Clients.css'
 
+import bgl from '../../public/logo-bg.jpeg'
 import s1 from '../../public/sponsors/1.png';
 import s2 from '../../public/sponsors/2.png';
 import s3 from '../../public/sponsors/3.png';
@@ -56,11 +56,8 @@ function Clients() {
 
             <section className='row py-4 container w-75 mx-auto'
                 style={{ backgroundImage: `url(${bgl})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', width: '100vw', minHeight: '300px' }}>
-                {sponsors.map((sponsor, index) => (
-                    <div data-aos="fade-down" data-aos-delay="200" key={index} className="col-3 p-3">
-                        <img src={sponsor} alt={`Sponsor ${index + 1}`} className="img-fluid w-100 sponsor-img" />
-                    </div>
-                ))}
+                {sponsors.map((sponsor, index) => <div data-aos="fade-down" data-aos-delay="200" key={index} className="col-3 p-3"><img src={sponsor} alt={`Sponsor ${index + 1}`} className="img-fluid w-100 sponsor-img" />
+                </div>)}
             </section>
 
             <div className="container py-4">

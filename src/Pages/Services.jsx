@@ -7,7 +7,7 @@ import { faMessage } from '@fortawesome/free-regular-svg-icons';
 
 import Data from '../data/services.json'
 
-import vctor from '../../public/sackDollar.png';
+import vctor from '/sackDollar.png';
 import s1 from '../../public/s1.png'
 import s2 from '../../public/s2.png'
 import s3 from '../../public/s3.png'

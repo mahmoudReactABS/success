@@ -1,11 +1,13 @@
 import React from 'react'
-import aboutus from '../../public/aboutus.png'
+import aboutus from '/aboutus.png'
 import { useNavigate } from 'react-router'
 import { useLocation } from 'react-router-dom';
+import { useTranslationContext } from '../translationContext';
 
 function Header(props) {
     const navigate = useNavigate(),
         location = useLocation(),
+        { t, i18n } = useTranslationContext(),
         pathSegments = location.pathname.split('/'),
         pageName = pathSegments[pathSegments.length - 1],
         condition = pageName === "contacts" && "d-none";

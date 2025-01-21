@@ -1,5 +1,5 @@
 import React from 'react'
-import manager from '../../public/about.png';
+import manager from '/about.png';
 import { useTranslationContext } from '../translationContext';
 
 function Aboutsp() {

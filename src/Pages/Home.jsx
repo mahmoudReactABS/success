@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../Components/Hero';
-import { faSackDollar, faMagnifyingGlass, faIndustry, faPeopleGroup, faSignal, faCircleCheck, faMoneyBillWave, faGear } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faIndustry, faPeopleGroup, faSignal, faCircleCheck, faMoneyBillWave, faGear } from '@fortawesome/free-solid-svg-icons';
 import { faMessage } from '@fortawesome/free-regular-svg-icons';
 
 import Option from '../Components/Option';

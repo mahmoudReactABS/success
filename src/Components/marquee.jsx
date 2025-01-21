@@ -1,5 +1,5 @@
 import React from 'react'
-import spons from '../../public/Frame 473.png';
+import spons from '/Frame 473.png';
 
 function Marquee() {
   return (

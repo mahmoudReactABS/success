@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '../../public/Logo 1.png';
+import Logo from '/Logo 1.png';
 import { Link } from 'react-router-dom'; 
 import { useTranslationContext } from '../translationContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

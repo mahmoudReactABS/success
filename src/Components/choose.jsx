@@ -1,5 +1,5 @@
 import React from 'react';
-import meeting from '../../public/meeting.png';
+import meeting from '/meeting.png';
 import { useTranslationContext } from '../translationContext';
 
 function Choose() {

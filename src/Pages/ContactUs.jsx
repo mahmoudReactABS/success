@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faMailBulk, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import MessageForm from '../Components/messageForm';
-import logo_bg from '../../public/logo-bg.jpeg';
+import logo_bg from '/logo-bg.jpeg';
 
 function ContactUs() {
     const { t, i18n } = useTranslationContext();

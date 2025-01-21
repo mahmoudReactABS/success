@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Logo from '../../public/Logo.png';
+import Logo from '/Logo.png';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEarth } from '@fortawesome/free-solid-svg-icons';

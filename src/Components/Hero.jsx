@@ -1,5 +1,5 @@
 import React from 'react'
-import Herp from '../../public/hero.png';
+import Herp from '/hero.png';
 import { useTranslationContext } from '../translationContext';
 
 import { useNavigate } from 'react-router';
