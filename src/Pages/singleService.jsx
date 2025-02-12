@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useTranslationContext } from '../translationContext';
 import MessageForm from './../Components/messageForm';
-
+import './single.css'
 import logo_bg from '../../public/logo-bg.jpeg';
 
 import s1 from '../../public/s1.png';
@@ -156,37 +156,49 @@ function SingleService() {
   decodedTitle = decodeURIComponent(title);
  } catch (error) {
   console.error('Error decoding title:', error);
-  return (
-   <Error />
-  );
+  return <Error />;
  }
 
  useEffect(() => {
-  const foundService = data.taxes.find(service => service.type[i18n.language] === decodedTitle) || data.advisoryServices.find(service => service.type[i18n.language] === decodedTitle);
+  const foundService =
+   data.taxes.find(service => service.type[i18n.language] === decodedTitle) ||
+   data.advisoryServices.find(service => service.type[i18n.language] === decodedTitle);
 
   if (foundService) {
    setService(foundService);
   } else {
    console.error('Service not found:', decodedTitle);
+   setService(null);
   }
  }, [decodedTitle, i18n.language]);
 
- if (!service) {
-  return (
-   <Error />
-  );
+
+ if (service === null) {
+  return <Error />;
  }
 
  return (
-  <section className='p-0 m-0'>
-   <img src={service.img} className="w-100" style={{ height: "600px" }} alt={service.type[i18n.language]} />
-   <article className="text-center container py-4" 
-   style={{ backgroundImage: `url(${logo_bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain'}}>
-    <h1 className="mb-4" style={{ color: 'var(--primary)' }}>{service.type[i18n.language]}</h1>
-    <p className="text-start fs-5">{service.description[i18n.language]}</p>
-    <MessageForm />
-   </article>
-  </section>
+  <>
+   <div className="">
+   <img
+    src={service.img}
+    className="w-100"
+    style={{ height: '600px', objectFit: 'cover' }}
+    alt={service.type[i18n.language]}
+   />
+   </div>
+   <section className="p-0 m-0">
+
+    <article className="text-center container py-4"
+     style={{ backgroundImage: `url(${logo_bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }}>
+     <h1 className="mb-4" style={{ color: 'var(--primary)' }}>
+      {service.type[i18n.language]}
+     </h1>
+     <p style={{ textAlign: 'justify' }} className="fs-5">{service.description[i18n.language]}</p>
+     <MessageForm />
+    </article>
+   </section>
+  </>
  );
 }
 

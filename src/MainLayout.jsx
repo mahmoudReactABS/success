@@ -7,11 +7,13 @@ import { TranslationProvider } from './translationContext';
 
 const MainLayout = () => {
   return (
-    <TranslationProvider>
-      <NavBar/>
-      <Outlet />
-      <Footer />
-    </TranslationProvider>
+    <main className='w-100 overflow-x-hidden'>
+      <TranslationProvider>
+        <NavBar />
+        <Outlet />
+        <Footer />
+      </TranslationProvider>
+    </main>
   );
 };
 

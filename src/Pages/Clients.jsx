@@ -54,9 +54,9 @@ function Clients() {
         <>
             <Header title={t('ourCli')} text={t('clientText')} />
 
-            <section className='row py-4 container w-75 mx-auto'
+            <section className='row container w-75 my-5 mx-auto'
                 style={{ backgroundImage: `url(${bgl})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', width: '100vw', minHeight: '300px' }}>
-                {sponsors.map((sponsor, index) => <div data-aos="fade-down" data-aos-delay="200" key={index} className="col-3 p-3"><img src={sponsor} alt={`Sponsor ${index + 1}`} className="img-fluid w-100 sponsor-img" />
+                {sponsors.map((sponsor, index) => <div data-aos-once="true" data-aos="fade-down" data-aos-delay="200" key={index} className="col-3 p-3"><img src={sponsor} alt={`Sponsor ${index + 1}`} className="img-fluid w-100 sponsor-img" />
                 </div>)}
             </section>
 

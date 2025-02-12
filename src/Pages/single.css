@@ -1,0 +1,10 @@
+.bg-danger {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.bg-danger img {
+  width: 2000px;
+  padding: 0 !important;
+  margin: 0 !important;
+}

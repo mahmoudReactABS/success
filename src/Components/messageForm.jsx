@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslationContext } from '../translationContext';
+import './message.css'
 
 function MessageForm(props) {
     const { t, i18n } = useTranslationContext(),
@@ -64,29 +65,29 @@ function MessageForm(props) {
                     </button>
                 </form> : <form className={txt_dir}>
                     <section className='row'>
-                        <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 my-3'>
+                        <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 '>
                             <h6>{t('fName')}</h6>
                             <input required className='bg-transparent form-control w-100' type='text' name='fullName' value={formData.fullName} onChange={handleInputChange} />
                         </div>
-                        <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 my-3'>
+                        <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 '>
                             <h6>{t('phoneNo')}</h6>
                             <input required className='bg-transparent form-control w-100' type='tel' name='phoneNumber' value={formData.phoneNumber} onChange={handleInputChange} />
                         </div>
                     </section>
 
                     <section className=''>
-                        <div className='w-100 my-3'>
+                        <div className='w-100 my-2'>
                             <h6>{t('mail')}</h6>
                             <input required className='bg-transparent form-control w-100' type='email' name='email' value={formData.email} onChange={handleInputChange} />
                         </div>
-                        <div className="my-3">
+                        <div className="my-2">
                             <h6>{t('message')}</h6>
                             <textarea required style={{ resize: 'none' }} rows={'8'} className='bg-transparent form-control w-100' name='message'
                                 value={formData.message} onChange={handleInputChange}></textarea>
                         </div>
                     </section>
 
-                    <button className='btn px-5 mx-auto py-3 fs-5' type='submit' disabled={isButtonDisabled}>
+                    <button className='btn noPad w-100 py-3 fs-5' type='submit' disabled={isButtonDisabled}>
                         {t('sub')}
                     </button>
                 </form>

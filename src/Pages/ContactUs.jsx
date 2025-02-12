@@ -21,17 +21,25 @@ function ContactUs() {
                         <h5 className='my-4'><strong><FontAwesomeIcon className='mx-4' icon={faPhone} />202 25265638 -  202 25265637</strong></h5>
                         <h5 className='my-4'><strong><FontAwesomeIcon className='mx-4' icon={faLocationDot} />{t('address')}</strong></h5>
                         <h5 className='my-4'><strong><FontAwesomeIcon className='mx-4' icon={faMailBulk} />info@sp.com.eg</strong></h5>
-                        <div className='mt-5 text-center w-50'>
+                        <div className='mt-5 text-center'>
                             <h5 className='my-4'><strong>{t('socmed')}</strong></h5>
-                            <div className="d-flex justify-content-center gap-4">
-                                <FontAwesomeIcon className='fs-4' icon={faFacebook}></FontAwesomeIcon>
-                                <FontAwesomeIcon className='fs-4' icon={faLinkedin}></FontAwesomeIcon>
-                                <FontAwesomeIcon className='fs-4' icon={faInstagram}></FontAwesomeIcon>
-                                <FontAwesomeIcon className='fs-4' icon={faYoutube}></FontAwesomeIcon>
+                            <div className="d-flex justify-content-center align-items-center gap-4">
+                                <a className='fs-4 text-dark' href='https://www.facebook.com/S.P.Public.Accountants.and.Consultants/'>
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                </a>
+                                <a className='fs-4 text-dark' href='https://eg.linkedin.com/company/success_partners'>
+                                    <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                                </a>
+                                <a className='fs-4 text-dark' href='https://eg.linkedin.com/company/success_partners'>
+                                    <FontAwesomeIcon className='fs-4' icon={faInstagram}></FontAwesomeIcon>
+                                </a>
+                                <a className='fs-4 text-dark' href='https://eg.linkedin.com/company/success_partners'>
+                                    <FontAwesomeIcon className='fs-4' icon={faYoutube}></FontAwesomeIcon>
+                                </a>
                             </div>
                         </div>
                     </article>
-                    <article className='col-xl-6 col-md-12'>
+                    <article className='col-xl-6 col-md-12 my-5 my-lg-0 my-md-5'>
                         <MessageForm align={'ups'} />
                     </article>
                 </div>
